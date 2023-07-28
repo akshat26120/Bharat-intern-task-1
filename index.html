@@ -1,14 +1,75 @@
-<!doctype html>
-<html>
+<!DOCTYPE html>
+<html lang="en">
 
 <head>
-    <title>akshat</title>
 
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="my.css">
+    <title>Akshat Portfolio</title>
+    <style>
+        /* Add your custom CSS styles here */
+    </style>
 </head>
 
 <body>
-    <h1>HI MY NEW TO THIS PROJECT</h1>
-    <p>today is my first day to the office and this is my forst project</p>
+    <header>
+        <h1 style="color: rgb(160, 255, 255);">A K S H A T <br>I N F O T E C H</h1>
+        <p style="font-size: large; color: black;"><i>Web Developer | Designer</i></p>
+    </header>
+    <nav>
+        <!-- Add navigation links to different sections of your portfolio -->
+        <a href="#about" style="margin-right: 60px;">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact" style="margin-left: 60px;">Contact</a>
+    </nav>
+    <main>
+        <section id="about">
+            <!-- Add information about yourself and your skills here -->
+            <h1 style="text-align: center;"><i>ABOUT ME</i></h1>
+            <p><i>
+                Hi, I'm Akshat Sharma , a web developer and designer passionate about creating beautiful and functional websites.
+            </i>
+            </p>
+        </section>
+        <section id="projects">
+            <!-- Showcase your projects here -->
+            <h1 style="text-align: center;"><i>PROJECTS</i></h1>
+            <div>
+                <h2><i>Project 1 : Bloging Websites</i></h2>
+                <p><i>This bloging websites is the brain of an experienced fellow whose aim is to groom each reader's way of understanding the IT world.</i></p>
+                <p><i>Click hear to visit <img src="./img/b.png" alt="a link to Hackrtheld"> <a href="https://www.hackerheld.com/"><button>Hackerheld</button></a>
+                </i></p>
+            </div>
+            <div>
+                <h2><i>Project 2 : Shoping Websites</i></h2>
+                <p><i>A home retailer in India with over 75+ stores, Home Centre is one of the country’s most preferred home shopping destinations.</i></p>
+                <p><i>Click hear to visit <img src="./img/b.png" alt="a link to Homecenter"> <a href="https://www.homecentre.in/in/en/department/decor?gclid=EAIaIQobChMI5KmXu_6wgAMViV19Ch0xggoVEAAYAiAAEgKNwPD_BwE"><button>Homecentre</button></a></i></p>
+
+            </div>
+            <!-- Add more project sections as needed -->
+        </section>
+        <section id="contact">
+            <!-- Provide your contact information and a contact form here -->
+            <h1 style="text-align:center;  font-size:xx-large"><i>CONTACT ME</i></h1>
+            <p>Email : akshatsharmajrn@gmail.com</p>
+            <p style="font-size: 2em;"> <img src="./img/g.png" style="size-adjust:25px;"> : +91 9131554813</p>
+            </p>
+            <form>
+                <label for="name">Name : </label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email : </label>
+                <input type="email" id="email" name="email" required>
+                <label for="message">Message : </label>
+                <textarea id="message" name="message" required></textarea>
+                <button type="submit">Send</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <!-- Add any additional information in the footer, such as social media links -->
+        &copy; 2023 Your Portfolio. All rights reserved.
+    </footer>
 </body>
 
 </html>
