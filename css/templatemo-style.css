@@ -314,7 +314,8 @@ a:focus {
 
 .custom-navbar .nav li.active>a {
     background-color: transparent;
-    color: #850071;
+    color: rgb(140, 72, 72)s;
+    ;
 }
 
 .custom-navbar .navbar-toggle {
@@ -327,7 +328,8 @@ a:focus {
 }
 
 .custom-navbar .navbar-toggle .icon-bar {
-    background: #850071;
+    background: rgb(140, 72, 72);
+    ;
     border-color: transparent;
 }
 
@@ -640,7 +642,7 @@ footer {
 }
 
 .social-icon li a:hover {
-    background: #E3AE57;
+    background: #080602;
     border-color: #ffffff;
     color: #ffffff;
     transform: scale(1.1);
