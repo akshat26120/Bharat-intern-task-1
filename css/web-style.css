@@ -82,9 +82,9 @@ p {
 
 .section-btn {
     background-color: transparent;
-    border: 3px solid #232B2B;
+    border: 3px solid #ffffff;
     border-radius: 100px;
-    color: #232B2B;
+    color: #ffffff;
     font-size: 13px;
     font-weight: bold;
     letter-spacing: 1.6px;
@@ -95,7 +95,7 @@ p {
 }
 
 .section-btn:hover {
-    background: #E3AE57;
+    background: #a9a9a956;
     border-color: transparent;
     color: #ffffff;
 }
@@ -293,7 +293,7 @@ a:focus {
 }
 
 .custom-navbar .nav li a {
-    color: #666;
+    color: #939393;
     font-size: 14px;
     font-weight: 400;
     letter-spacing: 1px;
@@ -314,7 +314,7 @@ a:focus {
 
 .custom-navbar .nav li.active>a {
     background-color: transparent;
-    color: rgb(140, 72, 72);
+    color: rgb(59, 155, 80);
     ;
 }
 
